@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <section class="container">
+      <h1>formulario de cadastro</h1>
+      <li>nenhum campo pode estar vazio</li>
+      <li>o usuario so pode conter letra e/ou numeros</li>
+      <li>o usuario teve der de 3 a 12 caracteres</li>
+      <li>a senha deve ter de 6 a 12 caracteres</li>
+        <form action="">
+            <label for="nome">nome</label>
+            <input type="text" id="nome">
+
+            <label for="sobrenome">sobrenome</label>
+            <input type="text" id="sobrenome">
+
+            <label for="CPF">CPF</label>
+            <input type="text" id="CPF">
+
+            <label for="usuario">usuario</label>
+            <input type="text" id="usuario">
+
+            <label for="senha">senha</label>
+            <input type="password" id="senha">
+
+            <label for="reSenha">repede senha</label>
+            <input type="password" id="reSenha">
+         
+        </form>
+        <button onclick="cadastrar()">enviar</button>
+    </section>
+    <script  src="assets/js/main.js"></script>
+    <script  src="assets/js/validacpf.js"></script>
+
+</body>
+
+</html>
